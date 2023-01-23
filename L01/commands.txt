@@ -1,0 +1,19 @@
+cd [LOCATION] - Change location [Change working directory]
+ls [LOCATION(optional)]- Used to look at surroundings [List files in current directory]
+less - same as ls
+exit - used to exit the game permanently
+help - instructions on how to get help
+man [COMMAND] - Reveals use of given command
+touch - Artisan's touch to create new objects [Create new files]
+grep - Command your minion to help search through text for you [Search through text files]
+pwd - To remind you where you are [Print working directory]
+mv [OBJECT] [NEWLOCATION] - Used to move an object to a different location
+cp - Copy An Item
+tellme - The old man's voice echoes in your head as if from a great distance
+tellme (combo) - Tells you the combination for the AthenaCluster rooms at MIT.
+terminus
+sudo
+IHTFP
+add
+Magic Locker
+mkdir
