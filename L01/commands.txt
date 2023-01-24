@@ -15,4 +15,4 @@ sudo - Read the certificate [Execute adminstrative commands]
 rm - Remove an item [Delete a file]
 mkdir - Creates a new room [creates a new directory in the file tree]
 IHTFP - Password
-add - Add a new spell to a locker in the AthenaCluster []
+add - Add a new spell to a locker in the AthenaCluster [Adds a new file]
