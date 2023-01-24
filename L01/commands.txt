@@ -3,7 +3,7 @@ ls [LOCATION(optional)]- Used to look at surroundings [List files in current dir
 less ITEM - Interact with things inthe world [Show file information]
 exit - Used to exit the game permanently
 help - Instructions on how to get help
-man [COMMAND] - Reveals use of given command
+man [COMMAND] - Reveals use of given command [Gets manual entry in terminal]
 touch - Artisan's touch to create new objects [Create new files]
 grep - Command your minion to help search through text for you [Search through text files]
 pwd - To remind you where you are [Print working directory]
