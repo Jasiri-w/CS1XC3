@@ -11,9 +11,4 @@ mv [OBJECT] [NEWLOCATION] - Used to move an object to a different location
 cp - Copy An Item
 tellme - The old man's voice echoes in your head as if from a great distance
 tellme (combo) - Tells you the combination for the AthenaCluster rooms at MIT.
-terminus
-sudo
-IHTFP
-add
-Magic Locker
-mkdir
+sudo - Read the certificate [O]
