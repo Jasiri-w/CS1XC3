@@ -1,0 +1,6 @@
+The reported times for both programs being zero might indicate the programs are running too quickly for "gprof" to accurately measure the time since the input numbers are relatively small.
+
+Regarding the iterative program being called only once, it's possible that the program is exiting after the first call or that the "gprof" output is not capturing all calls made by the program.
+
+The number of recursive calls made by the program could depend on the number of unique prime factors in the input number. However, it is not necessarily linear or predictable, as other factors such as the size of the input number may affect it.
+Regarding the number of prime factors produced by each number, this can also affect the number of recursive calls made by the program. If the input number has many unique prime factors, then the recursive function would be called more times compared to an input number with fewer unique prime factors. 
