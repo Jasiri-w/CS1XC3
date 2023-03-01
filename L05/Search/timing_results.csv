@@ -1,0 +1,15 @@
+Search Value,Linear Search,Binary Search,Fibonacci,Notes
+1,0m0.003s,0m0.003s,0m0.003s,Linear Search Because its the very first element
+4,0m0.003s,0m0.003s,0m0.002s,Fibonnaci
+22,0m0.002s,0m0.003s,0m0.003s,Linear Search Because the value is chronologically early
+37,0m0.003s,0m0.003s,0m0.003s,Equal
+22906,0m0.003s,0m0.003s,0m0.002s,Fibonnaci
+53757,0m0.003s,0m0.003s,0m0.003s,Equal
+112591,0m0.003s,0m0.003s,0m0.003s,Equal
+361940,0m0.003s,0m0.002s,0m0.003s,Binary Search
+475713,0m0.003s,0m0.003s,0m0.003s,Equal
+893766,0m0.003s,0m0.003s,0m0.002s,Fibonnaci as addition and subtraction operations were more efficient for this value
+996637,0m0.003s,0m0.003s,0m0.003s,Equal
+996639,0m0.003s,0m0.004s,0m0.003s,Linear and Fibonnaci were equal
+996652,0m0.003s,0m0.002s,0m0.002s,Binary and Fibonnaci were equal
+-996652,0m0.003s,0m0.002s,0m0.003s,Binary Search recognized the value outside of the set much faster

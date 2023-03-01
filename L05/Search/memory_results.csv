@@ -1,0 +1,15 @@
+Search Value,Linear Search,Binary Search,Fibonacci,Notes
+1,2264,2216,2200,Binary Search
+4,2260,2264,2300,Linear Search
+22,2240,2252,2124,Fibonaci
+37,2212,2232,2240,Linear Search
+22906,2220,2240,2260,Linear Search
+53757,2220,2300,2216,Fibonacci
+112591,2224,2252,2220,Fibonacci
+361940,2224,2220,2220,Fibonacci and Binary Search
+475713,2232,2208,2308,Binary Search
+893766,2248,2240,2300,Fibonacci
+996637,2208,2240,2300,Linear Search
+996639,2260,2228,2208,Fibonacci
+996652,2308,2256,2256,Fibonacci and Binary Search
+-996652,2220,2128,2252,Binary Search
