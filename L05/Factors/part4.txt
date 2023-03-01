@@ -1,0 +1,15 @@
+(a) How are the iterative and recursive algorithms similar and different for the same test cases?
+Which has more repetition?
+They run identically for many of the same numbers, however the iterative is generally slightly more efficient.
+The recursive approach has more repetition.
+
+(b) What is the most executed line in the iterative and recursive algorithms? Are they the same?
+Recursive: Line 144 (In factor_rec())
+Iterative: Line 242 (In factor_itr())
+Not the same
+
+(c) Are there any parts of the code which are not exercised?
+Many, Iterative application will basically ignore all the recursion code and vice versa. However all the lines are executed in one or the other, with exception of printArray()
+
+(d) If we were to try to optimize either function, where would be a good place to start?
+Memoization for recursion or another solution inside of the for loops.
