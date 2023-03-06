@@ -1,0 +1,42 @@
+ 13:15:42 up 79 days,  4:24, 39 users,  load average: 0.07, 0.11, 0.43
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+grafj1   pts/44   172.18.7.95      12:23   25:10   0.54s  0.54s -bash
+pohlj    pts/47   172.18.104.252   12:19   56:06   0.04s  0.04s -bash
+sivakr6  pts/13   172.18.111.156   11:10    1:48m  0.16s  0.16s -bash
+shants5  pts/16   172.18.104.68    11:14    2:00m  0.05s  0.05s -bash
+rothk4   pts/6    172.18.109.231   11:32    1:36m  0.07s  0.07s -bash
+gyorgypn pts/12   172.18.107.172   11:21    1:54m  0.04s  0.04s -bash
+zhaok31  pts/71   172.18.106.54    13:09    1:10   0.13s  0.13s -bash
+corradic pts/74   172.18.107.130   12:51   29.00s  0.35s  0.09s vim .bash_logout
+kaurm57  pts/76   172.17.7.33      12:30    6.00s  0.27s  0.27s -bash
+sorokinn pts/79   172.18.112.55    09:45    1:54m  0.31s  0.04s nano /home/sorokinn/.bashrc
+guptae6  pts/88   172.18.111.168   09:36    2:06m  0.73s  0.73s -bash
+rastom1  pts/89   172.17.1.27      12:38   22.00s  0.18s  0.18s -bash
+patem190 pts/103  172.18.54.42     12:08    1:01m  0.13s  0.04s nano part1.txt
+parikh5  pts/101  172.18.20.212    12:42   33:26   0.04s  0.04s -bash
+shants5  pts/157  172.18.54.179    12:47   27:40   0.04s  0.04s -bash
+ukaegbuc pts/165  172.18.105.12    11:39    1:08m  0.19s  0.19s -bash
+wangq198 pts/233  172.18.14.217    11:33   28:51   0.37s  0.37s -bash
+sorokinn pts/216  172.17.102.153   11:32   50.00s  0.75s  0.00s ./top
+vassalm  pts/234  172.18.31.71     11:56    1:18m  0.07s  0.07s -bash
+lu120    pts/156  172.18.28.37     10:06   24:22   0.25s  0.25s -bash
+gyorgypn pts/256  172.17.116.105   13:14    6.00s  0.14s  0.14s -bash
+brzustoj pts/265  172.17.97.4      11:43   41:02   0.37s  0.37s -bash
+pater137 pts/261  172.18.104.255   11:40   14.00s  0.34s  0.03s nano script.sh
+singhd80 pts/212  172.18.113.150   10:32    1:55m  0.08s  0.08s -bash
+ebrahp2  pts/263  172.17.71.211    12:08    5.00s  0.78s  0.22s vim .bashrc
+samplj   pts/208  172.18.105.180   10:38    2:11m  0.17s  0.17s -bash
+kongy17  pts/209  172.18.107.226   13:10    4:06   0.06s  0.06s -bash
+wakyendj pts/308  172.18.110.210   12:48    6.00s  0.53s  0.06s w
+sullia8  pts/288  172.18.105.18    12:06   30.00s  1.27s  0.34s emacs .bash_logout
+kaura69  pts/270  172.18.104.247   11:47   46.00s  0.95s  0.49s vim .bashrc
+kunovaa  pts/235  172.18.107.25    11:35   29.00s  1.00s  0.03s nano /home/kunovaa/.bashrc
+almudara pts/262  172.18.107.240   11:46    1:08m  0.05s  0.05s -bash
+hobincan pts/271  172.18.15.46     11:52    5.00s  0.63s  0.63s -bash
+ofeknale pts/272  172.17.5.202     12:05   59:18   0.09s  0.09s -bash
+saeede2  pts/306  172.17.131.94    12:36   11:39   0.56s  0.50s -bash
+vok9     pts/302  172.18.106.216   12:47    6.00s  0.60s  0.22s -bash
+liu1690  pts/325  172.18.118.1     12:52   13:58   0.05s  0.05s -bash
+ebrahp2  pts/328  172.17.71.211    12:52   23:24   0.04s  0.04s -bash
+kime46   pts/330  172.18.107.216   12:56    3:50   0.87s  0.87s -bash
+------

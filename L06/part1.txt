@@ -1,0 +1,4 @@
+/home/wakyendj
+/home/wakyendj/CS1XC3/L06
+/home/wakyendj/.local/bin:/home/wakyendj/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+-bash: sndnudes: command not found
