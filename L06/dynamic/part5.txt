@@ -1,0 +1,9 @@
+top.c:2:10: fatal error: Lab6Part4.h: No such file or directory
+ #include "Lab6Part4.h"
+          ^~~~~~~~~~~~~
+compilation terminated.
+/tmp/ccoMaoA7.o: In function `main':
+top.c:(.text+0xf): undefined reference to `sum2'
+top.c:(.text+0x2f): undefined reference to `prod2'
+top.c:(.text+0x45): undefined reference to `barrettsPrivateers'
+collect2: error: ld returned 1 exit status
