@@ -4,3 +4,9 @@
 [submodule "L07/1XC3_L07"]
 	path = L07/1XC3_L07
 	url = git@github.com:Jasiri-w/1XC3_L07.git
+[submodule "L08/1XC3_L08_P1"]
+	path = L08/1XC3_L08_P1
+	url = git@github.com:Jasiri-w/1XC3_L08_P1.git
+[submodule "L08/1XC3_L08_P2"]
+	path = L08/1XC3_L08_P2
+	url = git@github.com:Jasiri-w/1XC3_L08_P2.git
