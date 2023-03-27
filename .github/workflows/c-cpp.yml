@@ -14,5 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make docs
-      run: sudo apt-get update && sudo apt-get install apt -y && sudo apt−get install doxygen && make docs
+      run: sudo apt-get update && sudo apt-get install apt -y && sudo apt-get install doxygen && make docs
       working-directory: L09
