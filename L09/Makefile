@@ -19,7 +19,7 @@ doxygen :
 	doxygen -g
 
 docs : doxygen
-	doxygen doxyfile
+	doxygen Doxyfile
 
 all : student course main
 
