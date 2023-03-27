@@ -1,8 +1,21 @@
+/**
+
+@file student.c
+@author Jasiri Wa-Kyendo
+@date March 27th 2023
+@brief This file contains the implementation of functions for managing student data
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "student.h"
+/**
 
+@brief Add a grade to a student's record
+@param student A pointer to the student whose record will be updated
+@param grade The grade to be added
+*/
 void add_grade(Student* student, double grade)
 {
   student->num_grades++;
@@ -14,7 +27,12 @@ void add_grade(Student* student, double grade)
   }
   student->grades[student->num_grades - 1] = grade;
 }
+/**
 
+@brief Calculate the average grade for a student
+@param student A pointer to the student whose average grade will be calculated
+@return The average grade for the student
+*/
 double average(Student* student)
 {
   if (student->num_grades == 0) return 0;
@@ -23,7 +41,11 @@ double average(Student* student)
   for (int i = 0; i < student->num_grades; i++) total += student->grades[i];
   return total / ((double) student->num_grades);
 }
+/**
 
+@brief Print a student's information, including name, ID, grades, and average grade
+@param student A pointer to the student to be printed
+*/
 void print_student(Student* student)
 {
   printf("Name: %s %s\n", student->first_name, student->last_name);
@@ -34,7 +56,12 @@ void print_student(Student* student)
   printf("\n");
   printf("Average: %.2f\n\n", average(student));
 }
+/**
 
+@brief Generate a random student with a given number of grades
+@param grades The number of grades for the new student
+@return A pointer to the newly generated student
+*/
 Student* generate_random_student(int grades)
 {
   char first_names[][24] = 

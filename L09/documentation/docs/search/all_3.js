@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['grades_4',['grades',['../struct__student.html#ad0f75a9ff0f6104eb9e3bb3c4f7ad97b',1,'_student']]]
+  ['enroll_5fstudent_6',['enroll_student',['../course_8c.html#af3abbc650ef56ffff427a62dad63fc77',1,'course.c']]]
 ];

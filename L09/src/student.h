@@ -1,6 +1,7 @@
 /**
+ * @author Jasiri Wa-Kyendo
+ * @date March 27th 2023
  * @brief Represents a student in a school system.
- *
  * This struct contains information about a student's name, ID, and grades.
  */
 

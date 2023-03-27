@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['students_9',['students',['../struct__course.html#a5cf448bc80f0f8c5f23402db23d41a00',1,'_course']]]
+  ['last_5fname_11',['last_name',['../struct__student.html#a18eb2a90671a2292c017b8f4fbde7eec',1,'_student']]]
 ];

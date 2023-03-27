@@ -3,7 +3,8 @@
 
 /**
  * @brief Represents a course in a school system.
- *
+ * @author Jasiri Wa-Kyendo
+ * @date March 27th 2023
  * This struct contains information about a course's name, code, and enrolled students.
  */
 typedef struct _course 
