@@ -1,0 +1,24 @@
+Lesson 1: abc
+Lesson 2: 123
+Lesson 3: ...\.
+Lesson 4: [cmf]an
+Lesson 5: [^b]og
+Lesson 6: [A-C][n-p][a-c]
+Lesson 7: waz{3,5}up
+Lesson 8: aa+b*c+
+Lesson 9: \d+ files? found\?
+Lesson 10: \d\.\s+abc
+Lesson 11: ^Mission: successful$
+Lesson 12: ^(file.+)\.pdf$
+Lesson 13: (\w+ (\d+))
+Lesson 14: (\d+)x(\d+)
+Lesson 15: I love (cats|dogs)
+Playground: ^[A-Za-z0-9\s.,!$&*@#%()_-]+$
+Extra 1: ^-?\d+(,\d+)*(\.\d+(e\d+)?)?$
+Extra 2: (\d{3})
+Extra 3: ^([\w\.]*)
+Extra 4: <(\w+)
+Extra 5: (\w+)\.(jpg|png|gif)$
+Extra 6: ^\s*(.*)\s*$
+Extra 7: (\w+)\(([\w\.]+):(\d+)\)
+Extra 8: (\w+)://([\w\-\.]+)(:(\d+))?
