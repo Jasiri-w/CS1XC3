@@ -1,0 +1,10 @@
+grep -r '\\includegraphics' *.tex
+grep -rE '\\begin\s*{[^{]\S*\s*\}' *.tex
+grep -r -w -i -e 'arbitrary' -e 'bitwidth' -e 'pointer' *
+find . -name '*S*.tex' -exec grep -r -E -i '(\bto be\b.*(\bpresent\b|\bfuture\b|\bpresent perfect\b|\bpast perfect\b|\bfuture perfect\b|\bsimple past\b))|((\bpresent\b|\bfuture\b|\bpresent perfect\b|\bpast perfect\b|\bfuture perfect\b|\bsimple past\b).*(\bto be\b))' {} \;
+grep -rzoP '\\begin{itemize}\n\s*\\item' *.tex
+grep -r -E -i '(\bpointer\b\s*[RSTLNE]\w*)|(\{[^\{\}]*\bpointer\b[^\{\}]*\s*[RSTLNE]\w*)' *
+grep -r -woE '[[:space:]][[:alpha:]]*[aeiouAEIOU]{2}[[:alpha:]]*[[:space:]]' *
+grep -rzoP 'if \([^{}]*\n\)*?\{' *
+grep -rE '^(int|void|float|char)\s+(\*\s*)*\s*[a-zA-Z_]\w*\s*\([^()]*\)\s*\{' *
+grep -r -woE '\d+(\s*[+*/-]\s*\d+)+' *
