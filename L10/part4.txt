@@ -1,0 +1,10 @@
+find . -name "*.txt" -type f -exec sed -i 's/backwards/forwards/g' {} \;
+find . -name "*.tex" -type f -exec sed -i '/\\includegraphics/ d' {} \;
+find . -name "*.tex" -type f -exec sed -i 's/\\begin{itemize}/\\begin{enumerate}/g' {} \;
+find . -name "*.txt" -type f -exec sed -i 's/\./[citation needed]./g' {} \;
+find . -name "*.tex" -type f -exec sed -i '100,300 s/\w+ing/a gerund/g' {} \;
+find . -name "*.log" -type f -exec sed -i '15,18d' {} \;
+find . -name "*.tex" -type f -exec sed -i 's/\\textbf{/\\textit{/g' {} \;
+find . \( -name "*.tex" -o -name "*.txt" \) -type f -exec sed -i 's/[aeiouAEIOU]//g' {} \;
+find . -name "*.tex" -type f -exec sed -i '/^[^\\]*%/d' {} \;
+find . \( -name "*.tex" -o -name "*.txt" \) -type f -exec sed -i 's/[.,;:"'\''?]/!/g' {} \;
