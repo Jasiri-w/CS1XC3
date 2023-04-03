@@ -1,0 +1,15 @@
+find . -name '*.tex'
+find . -name '*.tex' ! -name 'template.tex'
+find . -name '*.tex' -exec wc -l {} \;
+find . \( -name '*.tex' -o -name '*.pdf' -o -name '*.toc' \)
+find . -name 'topic[7-9]*.pdf' -o -name 'topic1[0-9]*.pdf'
+find . -name '*~' -delete
+find . -name '#*#' -delete
+find . -type f \( -name '*.png' -o -name '*.jpg' -o -name '*.bmp' -o -name '*.webp' \) -name '??????????.*' -print > goodFiles.txt
+find . -name '*.log' -exec cat {} >> allTheLogs.log \;
+find . -name '*C*.aux' -exec awk 'FNR == 10 {print}' {} \;
+find . -name '*.sh' -exec chmod +x {} \;
+find . -type f -name '* and *.txt' -exec head -n 10 {} \; >> allheads.txt
+mkdir image_backup; find . \( -name '*.png' -o -name '*.jpg' -o -name '*.jpeg' -o -name '*.webp' \) -exec cp {} image_backup/ \;
+cat filenames.txt
+find . -type f -f allTheGlobs.txt -print
